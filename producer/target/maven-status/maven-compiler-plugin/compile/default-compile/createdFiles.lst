@@ -1,0 +1,8 @@
+com/luccas/producer/model/avro/AnimeMessage$Builder.class
+com/luccas/producer/model/avro/ProtocolMessaage$Callback.class
+com/luccas/producer/model/avro/ProtocolMessaage.class
+com/luccas/producer/model/avro/AnimeMessage.class
+com/luccas/producer/properties/KafkaProperties.class
+com/luccas/producer/model/avro/CatalogAnimesMessage.class
+com/luccas/producer/model/vo/CatalogAnime.class
+com/luccas/producer/model/avro/CatalogAnimesMessage$Builder.class

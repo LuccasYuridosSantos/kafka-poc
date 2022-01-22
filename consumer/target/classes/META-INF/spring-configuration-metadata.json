@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "kafka",
+      "type": "com.luccas.consumer.properties.KafkaProperties",
+      "sourceType": "com.luccas.consumer.properties.KafkaProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "kafka.boot-strap-server",
+      "type": "java.lang.String",
+      "sourceType": "com.luccas.consumer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.group-id",
+      "type": "java.lang.String",
+      "sourceType": "com.luccas.consumer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.schema-registry-url",
+      "type": "java.lang.String",
+      "sourceType": "com.luccas.consumer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.topic-anime",
+      "type": "java.lang.String",
+      "sourceType": "com.luccas.consumer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.topic-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.luccas.consumer.properties.KafkaProperties"
+    }
+  ],
+  "hints": []
+}

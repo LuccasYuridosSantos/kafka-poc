@@ -1,0 +1,20 @@
+server:
+  port: 8089
+
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_DB_CONNECTION:mongodb://localhost:27017}
+      database: ${MONGO_DB_CONNECTION_NAME:Animes}
+
+
+kafka:
+  groupId: test-consumer
+  bootStrapServer: localhost:9092
+  schemaRegistryUrl: http://localhost:8081
+  topicAnime: anime-topic
+  topicCatalog: catalog-topic
+
+logging:
+  pattern:
+    level: DEBUG

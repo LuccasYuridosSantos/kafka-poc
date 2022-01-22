@@ -1,0 +1,67 @@
+{
+  "groups": [
+    {
+      "name": "kafka",
+      "type": "com.luccas.producer.properties.KafkaProperties",
+      "sourceType": "com.luccas.producer.properties.KafkaProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "kafka.acks",
+      "type": "java.lang.String",
+      "sourceType": "com.luccas.producer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.boot-strap-serve",
+      "type": "java.lang.String",
+      "sourceType": "com.luccas.producer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.luccas.producer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.compression",
+      "type": "java.lang.String",
+      "sourceType": "com.luccas.producer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.enable-idempotent",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.luccas.producer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.num-partitions",
+      "type": "java.lang.Integer",
+      "sourceType": "com.luccas.producer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.replication-factor",
+      "type": "java.lang.Integer",
+      "sourceType": "com.luccas.producer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.retries-config",
+      "type": "java.lang.Integer",
+      "sourceType": "com.luccas.producer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.schema-registry-url",
+      "type": "java.lang.String",
+      "sourceType": "com.luccas.producer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.topic-anime",
+      "type": "java.lang.String",
+      "sourceType": "com.luccas.producer.properties.KafkaProperties"
+    },
+    {
+      "name": "kafka.topic-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.luccas.producer.properties.KafkaProperties"
+    }
+  ],
+  "hints": []
+}

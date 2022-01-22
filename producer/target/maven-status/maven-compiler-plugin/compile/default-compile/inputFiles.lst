@@ -1,0 +1,5 @@
+/home/luccas/workspace/POCs/project-kafka/kafkapoc/producer/src/main/java/com/luccas/producer/model/vo/Anime.java
+/home/luccas/workspace/POCs/project-kafka/kafkapoc/producer/src/main/java/com/luccas/producer/properties/KafkaProperties.java
+/home/luccas/workspace/POCs/project-kafka/kafkapoc/producer/src/main/java/com/luccas/producer/ProducerApplication.java
+/home/luccas/workspace/POCs/project-kafka/kafkapoc/producer/src/main/java/com/luccas/producer/config/KafkaConfig.java
+/home/luccas/workspace/POCs/project-kafka/kafkapoc/producer/src/main/java/com/luccas/producer/model/avro/AnimeMessage.java

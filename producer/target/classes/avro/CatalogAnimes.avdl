@@ -1,0 +1,13 @@
+
+@namespace("com.luccas.producer.model.avro")
+protocol ProtocolMessaage {
+
+	import schema  "AnimeMessage.avsc";
+	record CatalogAnimesMessage {
+
+		union { null, string } id = null;
+
+		union {null, @class("java.util.List") array<AnimeMessage>} animesList = null;
+
+	}
+}

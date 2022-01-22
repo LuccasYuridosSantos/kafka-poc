@@ -1,0 +1,16 @@
+server:
+  port: 8088
+
+
+kafka:
+  clientId: test
+  bootStrapServe: localhost:9092
+  schemaRegistryUrl: http://localhost:8081
+  acks: all
+  topicAnime: anime-topic
+  topicCatalog: catalog-topic
+  numPartitions: 6
+  replicationFactor: 1
+  retriesConfig: 5
+  enableIdempotent: true
+  compression: gzip
